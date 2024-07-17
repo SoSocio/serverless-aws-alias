@@ -5,13 +5,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Psycholive/serverless-aws-alias"
+    "url": "https://github.com/SoSocio/serverless-aws-alias"
   },
   "scripts": {
     "test": "nyc ./node_modules/mocha/bin/_mocha \"test/**/*.js\" -R spec --recursive",
     "eslint": "node node_modules/eslint/bin/eslint.js --ext .js lib"
   },
-  "author": "Frank Schmid <fschmid740@googlemail.com>",
   "license": "MIT",
   "keywords": [
     "serverless",
@@ -24,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/serverless-heaven/serverless-aws-alias/issues"
   },
-  "homepage": "https://github.com/Psycholive/serverless-aws-alias#readme",
+  "homepage": "https://github.com/SoSocio/serverless-aws-alias#readme",
   "nyc": {
     "exclude": [
       "test/**/*.*"
