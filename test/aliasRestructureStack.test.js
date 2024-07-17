@@ -11,7 +11,7 @@ const sinon = require('sinon');
 const AWSAlias = require('../index');
 
 const serverlessPath = getInstalledPathSync('serverless', { local: true });
-const AwsProvider = require(`${serverlessPath}/lib/plugins/aws/provider/awsProvider`);
+const AwsProvider = require(`${serverlessPath}/lib/plugins/aws/provider`);
 const Serverless = require(`${serverlessPath}/lib/Serverless`);
 
 chai.use(require('chai-as-promised'));
@@ -31,7 +31,7 @@ describe('aliasRestructureStack', () => {
 	});
 
 	beforeEach(() => {
-		serverless = new Serverless();
+		serverless = new Serverless({commands: [], options: {}});
 		options = {
 			alias: 'myAlias',
 			stage: 'myStage',
