@@ -52,7 +52,7 @@
     "eslint-plugin-lodash": "^7.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "get-installed-path": "^4.0.8",
-    "mocha": "^8.2.1",
+    "mocha": "^10.6.0",
     "nyc": "^15.1.0",
     "serverless": "^3.0.0",
     "sinon": "^9.2.3",
